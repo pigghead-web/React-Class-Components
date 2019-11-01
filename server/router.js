@@ -6,6 +6,7 @@ const router = (app) => {
   app.get('/example2', controllers.example2);
   app.get('/example3', controllers.example3);
   app.get('/', controllers.example1);
+  app.get('/getSongs', controllers.getSongs);
 };
 
 module.exports = router;
